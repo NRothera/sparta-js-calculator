@@ -57,5 +57,5 @@ if (typeOfCalculator ==='b'){
   }
   var travelTime = distance/speed
   var travelCost = ((distance/mpg)) * cpg
-  alert('Your trip will take ' + travelTime.toFixed(2) + " hours and cost £" + travelCost)
+  alert('Your trip will take ' + travelTime.toFixed() + " hours and cost £" + travelCost)
 }
