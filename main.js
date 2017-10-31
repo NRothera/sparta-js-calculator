@@ -37,11 +37,12 @@ if (typeOfCalculator ==='b'){
     var feet = parseFloat(prompt('Please enter how many feet tall you are. You will be asked inches next'));
     var inches = parseFloat(prompt('Please enter how many inches extra you are'));
     var result = (weight *703)/(((feet*12)+inches)**2);
-    var final = alert('Your BMI is ' + result);
+    var final = alert('Your BMI is ' + result.toFixed(2));
   }else{
     var weight = parseFloat(prompt('Please enter your weight in kg'));
     var height = parseFloat(prompt('Please enter your height in cm'));
     var result = weight/((height/100)**2);
+    var final = alert('Your BMI is ' + result.toFixed(2));
   }
 }else if (typeOfCalculator === 't'){
   var distance = parseFloat(prompt('Please enter how far you are travelling'));
@@ -58,4 +59,6 @@ if (typeOfCalculator ==='b'){
   var travelTime = distance/speed
   var travelCost = ((distance/mpg)) * cpg
   alert('Your trip will take ' + travelTime.toFixed() + " hours and cost £" + travelCost)
+}else{
+  alert("Wrong kind of input")
 }

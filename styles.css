@@ -1,0 +1,41 @@
+.container{
+  margin-top: 40px;
+  background: brown;
+  border: 5px ridge grey;
+  height: 300px;
+  width:300px;
+  box-shadow: 8px 8px 8px maroon;
+}
+
+.col-md-3{
+  background: white;
+  width:30px;
+  height:30px;
+  border:brown 2px solid;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 25px;
+}
+
+.col-md-3:hover{
+  background-color: green;
+}
+
+.col-md-3:active{
+background-color: blue;
+}
+
+input{
+  margin-top: 30px;
+  width:100%;
+  margin-bottom: 30px;
+  border: 3px ridge grey;
+}
+
+#equals:hover{
+  background-color: yellow;
+}
+
+#equals:active{
+  background-color: blue;
+}
