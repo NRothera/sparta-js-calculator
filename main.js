@@ -23,6 +23,7 @@ if (typeOfCalculator ==='b'){
   var firstNumber = prompt('Please enter your first number. This will be the number that is square rooted if you choose the square root operation');
   var secondNumber = prompt('Now please enter your second number');
   var typeOfOperator = prompt('Which operator would you like to use? ** or sqrt');
+
   if (typeOfOperator === '**'){
     var result = parseFloat(firstNumber) ** parseFloat(secondNumber);
     alert(firstNumber + " ** " +secondNumber + " = " + result)
